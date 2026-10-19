@@ -198,6 +198,7 @@ _LAZY_SUBMODULES: set[str] = {
     "backbone",
     "callbacks",
     "data",
+    "forward",
     # Optional JAX/Flax-NNX backend. Lazy like the rest, so accessing it imports
     # jax/flax only on first use — ``import stable_pretraining`` never does.
     "jax",
@@ -467,6 +468,7 @@ __all__ = [
     "ImageRetrieval",
     "TeacherStudentCallback",
     # Sub-packages
+    "forward",
     "utils",
     "data",
     "jax",
